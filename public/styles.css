@@ -1,0 +1,40 @@
+#nav {
+	width: 100%;
+}
+
+#photo-wheel {
+	margin-left:-20px;
+	padding-top: 55px;
+}
+
+#header-map {
+	display: flex;
+	margin-top: -100px;
+}
+
+
+#lowerbody {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin-top: 80px;
+}
+
+#sb-app {
+  border: 2px;
+  border-color: white;
+  background-color: white;
+}
+
+#grey {
+  width: 100%;
+  background-color: rgb(245,245,245);
+  height: 517px;
+  border-bottom: 1px solid rgb(220,220,220); 
+  z-index: -1;
+}
+
+body {
+margin: 0;
+}
