@@ -3,6 +3,11 @@
   <head>
     <title>The Grand Proxy</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
 
   <body>
@@ -10,18 +15,17 @@
   	  id="nav" 
   	  draggable="false"/>
 
-  	  <div id="grey">
-		    <div id="header-map"></div>  	
-  	  </div>
+ 	  <div id="grey"></div>
+    <div id="header-map"></div>  	
 
-	  	<div id="lowerbody">
-		    <div id="root"></div>
-			  <div id="sb-app"></div>
-	  	</div>
+  	<div id="lowerbody">
+	    <div id="root"></div>
+		  <div id="sb-app"></div>
+  	</div>
 
-	  <script src="http://localhost:7763/:id/bundle.js"></script>
-    <script src="http://localhost:3001/:id/bundle.js"></script>
-    <script src="http://localhost:3002/:id/bundle.js"></script>
-	  <script src="http://localhost:7878/:id/bundle.js"></script>
+	  <script src="https://s3-us-west-1.amazonaws.com/yelp-reactor-header/bundle.js"></script>
+    <script src="https://s3-us-west-1.amazonaws.com/yelpreactor/bundle.js"></script>
+    <script src="https://s3-us-west-1.amazonaws.com/yelpreactorreviews/bundle.js"></script>
+	  <script src="https://s3-us-west-1.amazonaws.com/yelpreactorsidebaricons/bundle.js"></script>
   </body>
 </html>
