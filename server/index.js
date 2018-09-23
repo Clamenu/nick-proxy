@@ -25,7 +25,7 @@ app.use('/api/sidebar', (req,res) => {
 app.get('/api/reviews/:id', (req,res) => {
 	var url = req.url.slice(4);
 	console.log(url);
-  fetch(`http://localhost:3002${url}`)
+  fetch(`http://ec2-18-208-135-101.compute-1.amazonaws.com${url}`)
     .then(response => response.json())
     .then(myJson => res.send(myJson))
     .catch(err => res.send(err));
